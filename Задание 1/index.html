@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="modal" id="about-batman">
+        <div class="modal-content batman-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Бэтмэн</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="bat hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal" id="about-superman">
+        <div class="modal-content superman-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Супермен</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="super hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal" id="about-iron">
+        <div class="modal-content ironman-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Железный человек</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="iron hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal" id="about-spider">
+        <div class="modal-content spiderman-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Человек Паук</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="spider hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+    <section class="modal" id="about-captain">
+        <div class="modal-content captain-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Капитан Америка</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="captain hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal" id="about-thor">
+        <div class="modal-content thor-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Тор</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="thor hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal" id="about-halk">
+        <div class="modal-content halk-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Халк</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="halk hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal" id="about-wonder">
+        <div class="modal-content wonder-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Чудо-женщина</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="wonder hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal" id="about-black">
+        <div class="modal-content black-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Черная вдова</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="black hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal" id="about-dedpool">
+        <div class="modal-content dedpool-modal">
+            <div class="opacity">
+                <div class="flex">
+                    <h2>Дедпул</h2>
+                    <button class="btn-before modal-close">⨉</button>
+                </div>
+                <div class="dedpool hero"></div>
+                <button class="btn btn-after modal-close">Закрыть</button>
+            </div>
+        </div>
+    </section>
+
+   
+    <h1>Супергерои</h1>
+        <div class="container">
+            <div class="hero__item">
+            <h3 class="hero__name">Бэтмэн</h3>
+                <img class="hero__img" src="./img/Batman.webp" alt="Бэтмен">
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-batman">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number grade-bat" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-bat">Сохранить оценку</button>
+                </div>
+                
+                
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Супермен</h3>
+                <img class="hero__img" src="./img/superman.jpg" alt="Супермен">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-superman">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number grade-super" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-super">Сохранить оценку</button>
+                </div>
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Железный человек</h3>
+                <img class="hero__img" src="./img/ironman.jpg" alt="Железный человек">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-iron">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number  grade-iron" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-iron">Сохранить оценку</button>
+                </div>
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Человек-паук</h3>
+                <img class="hero__img" src="./img/spiderman.jpg" alt="Человек-паук">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-spider">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number grade-spider" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-spider">Сохранить оценку</button>
+                </div>
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Капитан Америка</h3>
+                <img class="hero__img" src="./img/captain.jpg" alt="Капитан Америка">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-captain">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number  grade-captain" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-captain">Сохранить оценку</button>
+                </div>
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Тор</h3>
+                <img class="hero__img" src="./img/thor.jpg" alt="Тор">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-thor">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number grade-thor" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-thor">Сохранить оценку</button>
+                </div>
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Халк</h3>
+                <img class="hero__img" src="./img/halk.jpg" alt="Халк">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-halk">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number grade-halk" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-halk">Сохранить оценку</button>
+                </div>
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Чудо-женщина</h3>
+                <img class="hero__img" src="./img/wonderwoman.jpg" alt="Бэтмен">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-wonder">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number grade-wonder" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-wonder">Сохранить оценку</button>
+                </div>
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Черная вдова</h3>
+                <img class="hero__img" src="./img/Blackwidow.jpg" alt="Черная вдова">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-black">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number grade-black" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-black">Сохранить оценку</button>
+                </div>
+            </div>
+            <div class="hero__item">
+                <h3 class="hero__name">Дэдпул</h3>
+                <img class="hero__img" src="./img/dedpool.jpg" alt="Дэдпул">
+                
+                <div class="hero__footer">
+                    <button class="hero__about" data-modal="about-dedpool">Подробнее</button>
+                    <div class="hero__grade">
+                        <span class="hero__text">Оценка</span><input class="hero__number grade-dedpool" type="number" min="0" max="10"><span>/10</span>
+                    </div>
+                    <div class="lorem"></div>
+                    <button class="save save-dedpool">Сохранить оценку</button>
+                </div>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
